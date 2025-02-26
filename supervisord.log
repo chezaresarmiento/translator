@@ -1,0 +1,291 @@
+2025-02-24 20:13:37,747 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-24 20:13:37,749 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2025-02-24 20:13:37,757 INFO supervisord started with pid 1
+2025-02-24 20:13:38,764 INFO spawned: 'laravel-worker_00' with pid 7
+2025-02-24 20:13:38,768 INFO spawned: 'php-fpm' with pid 8
+2025-02-24 20:13:39,829 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 20:13:39,830 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 20:13:40,569 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:13:41,576 INFO spawned: 'laravel-worker_00' with pid 14
+2025-02-24 20:13:42,579 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 20:13:42,897 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:13:43,905 INFO spawned: 'laravel-worker_00' with pid 18
+2025-02-24 20:13:44,908 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 20:13:45,141 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:13:46,146 INFO spawned: 'laravel-worker_00' with pid 22
+2025-02-24 20:13:47,149 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 20:13:47,310 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:13:48,315 INFO spawned: 'laravel-worker_00' with pid 26
+2025-02-24 20:13:49,191 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:13:50,196 INFO spawned: 'laravel-worker_00' with pid 30
+2025-02-24 20:13:51,167 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:13:53,174 INFO spawned: 'laravel-worker_00' with pid 34
+2025-02-24 20:13:54,176 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 20:13:54,891 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:13:55,895 INFO spawned: 'laravel-worker_00' with pid 38
+2025-02-24 20:13:56,711 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:13:57,716 INFO spawned: 'laravel-worker_00' with pid 42
+2025-02-24 20:13:58,520 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:14:00,528 INFO spawned: 'laravel-worker_00' with pid 46
+2025-02-24 20:14:01,351 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:14:04,359 INFO spawned: 'laravel-worker_00' with pid 50
+2025-02-24 20:14:05,154 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:14:06,157 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2025-02-24 20:14:27,225 WARN received SIGQUIT indicating exit request
+2025-02-24 20:14:27,227 INFO waiting for php-fpm to die
+2025-02-24 20:14:27,239 INFO stopped: php-fpm (exit status 0)
+2025-02-24 20:14:51,162 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-24 20:14:51,162 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2025-02-24 20:14:51,172 INFO supervisord started with pid 1
+2025-02-24 20:14:52,176 INFO spawned: 'laravel-worker_00' with pid 7
+2025-02-24 20:14:52,179 INFO spawned: 'php-fpm' with pid 8
+2025-02-24 20:14:53,010 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:14:54,016 INFO spawned: 'laravel-worker_00' with pid 14
+2025-02-24 20:14:54,016 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 20:14:54,851 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:14:56,859 INFO spawned: 'laravel-worker_00' with pid 18
+2025-02-24 20:14:57,645 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:15:00,654 INFO spawned: 'laravel-worker_00' with pid 22
+2025-02-24 20:15:01,524 WARN exited: laravel-worker_00 (exit status 1; not expected)
+2025-02-24 20:15:02,527 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2025-02-24 20:21:12,500 INFO reaped unknown pid 89 (exit status 0)
+2025-02-24 20:24:09,791 INFO reaped unknown pid 129 (exit status 0)
+2025-02-24 20:25:24,120 INFO reaped unknown pid 170 (exit status 0)
+2025-02-24 20:27:54,488 INFO reaped unknown pid 213 (exit status 0)
+2025-02-24 20:28:54,604 INFO reaped unknown pid 245 (exit status 0)
+2025-02-24 20:32:22,067 INFO reaped unknown pid 325 (exit status 0)
+2025-02-24 20:33:12,169 INFO reaped unknown pid 367 (exit status 0)
+2025-02-24 20:33:40,224 INFO reaped unknown pid 407 (exit status 0)
+2025-02-24 20:41:46,126 INFO reaped unknown pid 450 (exit status 0)
+2025-02-24 20:46:10,743 INFO reaped unknown pid 593 (exit status 0)
+2025-02-24 20:53:56,273 INFO reaped unknown pid 640 (exit status 0)
+2025-02-24 20:58:42,534 INFO reaped unknown pid 696 (exit status 0)
+2025-02-24 21:06:02,642 INFO reaped unknown pid 744 (exit status 0)
+2025-02-24 21:08:07,151 INFO reaped unknown pid 795 (exit status 0)
+2025-02-24 21:10:37,715 INFO reaped unknown pid 838 (exit status 0)
+2025-02-24 21:11:37,224 INFO reaped unknown pid 879 (exit status 0)
+2025-02-24 21:12:34,975 INFO reaped unknown pid 922 (exit status 0)
+2025-02-24 21:13:20,075 INFO reaped unknown pid 963 (exit status 0)
+2025-02-24 21:17:30,910 INFO reaped unknown pid 1006 (exit status 0)
+2025-02-24 21:18:18,345 INFO reaped unknown pid 1047 (exit status 0)
+2025-02-24 21:18:52,263 INFO reaped unknown pid 1088 (exit status 0)
+2025-02-24 21:19:56,129 INFO reaped unknown pid 1129 (exit status 0)
+2025-02-24 21:21:33,408 INFO reaped unknown pid 1170 (exit status 0)
+2025-02-24 21:28:00,625 INFO reaped unknown pid 1211 (exit status 0)
+2025-02-24 21:30:58,673 INFO reaped unknown pid 1250 (exit status 0)
+2025-02-24 21:33:19,627 INFO reaped unknown pid 1291 (exit status 0)
+2025-02-24 21:34:33,227 INFO reaped unknown pid 1331 (exit status 0)
+2025-02-24 21:36:18,133 INFO reaped unknown pid 1372 (exit status 0)
+2025-02-24 21:43:07,891 INFO reaped unknown pid 1413 (exit status 0)
+2025-02-24 21:44:01,917 INFO reaped unknown pid 1454 (exit status 0)
+2025-02-24 21:45:07,356 INFO reaped unknown pid 1495 (exit status 0)
+2025-02-24 21:46:49,160 INFO reaped unknown pid 1535 (terminated by SIGINT)
+2025-02-24 21:47:14,209 WARN received SIGQUIT indicating exit request
+2025-02-24 21:47:14,211 INFO waiting for php-fpm to die
+2025-02-24 21:47:14,219 INFO stopped: php-fpm (exit status 0)
+2025-02-24 21:47:22,410 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-24 21:47:22,415 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2025-02-24 21:47:22,507 INFO supervisord started with pid 1
+2025-02-24 21:47:23,514 INFO spawned: 'laravel-worker_00' with pid 7
+2025-02-24 21:47:23,518 INFO spawned: 'php-fpm' with pid 8
+2025-02-24 21:47:24,569 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 21:47:24,570 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-24 21:48:16,673 INFO reaped unknown pid 42 (terminated by SIGINT)
+2025-02-24 21:51:32,639 INFO reaped unknown pid 70 (exit status 0)
+2025-02-24 21:52:20,580 WARN received SIGQUIT indicating exit request
+2025-02-24 21:52:20,581 INFO waiting for laravel-worker_00, php-fpm to die
+2025-02-24 21:52:20,587 INFO stopped: php-fpm (exit status 0)
+2025-02-24 21:52:21,591 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2025-02-25 00:55:20,169 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-25 00:55:20,170 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2025-02-25 00:55:20,176 INFO supervisord started with pid 1
+2025-02-25 00:55:21,181 INFO spawned: 'laravel-worker_00' with pid 7
+2025-02-25 00:55:21,184 INFO spawned: 'php-fpm' with pid 8
+2025-02-25 00:55:22,313 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 00:55:22,313 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 00:57:06,756 WARN received SIGQUIT indicating exit request
+2025-02-25 00:57:06,758 INFO waiting for laravel-worker_00, php-fpm to die
+2025-02-25 00:57:06,765 INFO stopped: php-fpm (exit status 0)
+2025-02-25 00:57:07,770 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2025-02-25 00:58:20,109 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-25 00:58:20,109 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2025-02-25 00:58:20,113 INFO supervisord started with pid 1
+2025-02-25 00:58:21,117 INFO spawned: 'laravel-worker_00' with pid 7
+2025-02-25 00:58:21,120 INFO spawned: 'php-fpm' with pid 8
+2025-02-25 00:58:22,151 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 00:58:22,152 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:12:10,499 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:12:11,504 INFO spawned: 'laravel-worker_00' with pid 22
+2025-02-25 01:12:12,506 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:14:46,256 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:14:47,261 INFO spawned: 'laravel-worker_00' with pid 28
+2025-02-25 01:14:48,264 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:18:27,092 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:18:28,097 INFO spawned: 'laravel-worker_00' with pid 34
+2025-02-25 01:18:29,099 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:19:45,913 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:19:46,917 INFO spawned: 'laravel-worker_00' with pid 40
+2025-02-25 01:19:47,927 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:23:03,829 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:23:04,833 INFO spawned: 'laravel-worker_00' with pid 47
+2025-02-25 01:23:05,836 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:33:19,196 INFO reaped unknown pid 84 (exit status 0)
+2025-02-25 01:36:33,426 INFO reaped unknown pid 125 (exit status 0)
+2025-02-25 01:41:14,477 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:41:15,482 INFO spawned: 'laravel-worker_00' with pid 147
+2025-02-25 01:41:16,485 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:44:14,092 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:44:15,099 INFO spawned: 'laravel-worker_00' with pid 153
+2025-02-25 01:44:16,102 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:47:07,470 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:47:08,476 INFO spawned: 'laravel-worker_00' with pid 159
+2025-02-25 01:47:10,057 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:48:16,413 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:48:17,419 INFO spawned: 'laravel-worker_00' with pid 165
+2025-02-25 01:48:18,422 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:48:27,029 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:48:28,035 INFO spawned: 'laravel-worker_00' with pid 171
+2025-02-25 01:48:29,973 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:51:53,707 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:51:54,712 INFO spawned: 'laravel-worker_00' with pid 177
+2025-02-25 01:51:55,715 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 01:52:46,907 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 01:52:47,913 INFO spawned: 'laravel-worker_00' with pid 183
+2025-02-25 01:52:48,916 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 02:08:57,481 INFO reaped unknown pid 209 (exit status 0)
+2025-02-25 02:11:38,652 INFO reaped unknown pid 249 (exit status 0)
+2025-02-25 02:11:51,681 INFO reaped unknown pid 290 (exit status 0)
+2025-02-25 02:13:01,607 INFO reaped unknown pid 328 (exit status 0)
+2025-02-25 02:15:33,129 INFO reaped unknown pid 369 (exit status 0)
+2025-02-25 02:21:28,849 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 02:21:29,856 INFO spawned: 'laravel-worker_00' with pid 388
+2025-02-25 02:21:30,858 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 02:21:31,860 INFO reaped unknown pid 411 (exit status 0)
+2025-02-25 02:23:04,040 INFO reaped unknown pid 445 (exit status 0)
+2025-02-25 02:31:08,135 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 02:31:09,139 INFO spawned: 'laravel-worker_00' with pid 466
+2025-02-25 02:31:10,142 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 02:34:28,334 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 02:34:29,339 INFO spawned: 'laravel-worker_00' with pid 472
+2025-02-25 02:34:30,342 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 02:34:35,351 INFO reaped unknown pid 498 (exit status 0)
+2025-02-25 02:35:57,560 INFO reaped unknown pid 539 (exit status 0)
+2025-02-25 02:40:18,646 INFO reaped unknown pid 579 (exit status 0)
+2025-02-25 02:41:00,732 INFO reaped unknown pid 618 (exit status 0)
+2025-02-25 02:43:31,783 INFO reaped unknown pid 658 (exit status 0)
+2025-02-25 02:46:53,228 INFO reaped unknown pid 699 (exit status 0)
+2025-02-25 02:47:48,805 INFO reaped unknown pid 737 (exit status 0)
+2025-02-25 02:48:55,937 INFO reaped unknown pid 778 (exit status 0)
+2025-02-25 02:49:57,893 INFO reaped unknown pid 819 (exit status 0)
+2025-02-25 02:53:33,294 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 02:53:34,298 INFO spawned: 'laravel-worker_00' with pid 868
+2025-02-25 02:53:35,301 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 02:53:39,309 INFO reaped unknown pid 862 (exit status 0)
+2025-02-25 02:54:46,644 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 02:54:47,648 INFO spawned: 'laravel-worker_00' with pid 910
+2025-02-25 02:54:48,650 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 02:54:52,658 INFO reaped unknown pid 909 (exit status 0)
+2025-02-25 02:57:09,907 INFO reaped unknown pid 953 (exit status 0)
+2025-02-25 02:57:19,809 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 02:57:20,813 INFO spawned: 'laravel-worker_00' with pid 1005
+2025-02-25 02:57:21,816 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 02:57:24,823 INFO reaped unknown pid 996 (exit status 0)
+2025-02-25 03:00:06,115 INFO reaped unknown pid 1041 (exit status 0)
+2025-02-25 03:01:50,623 INFO reaped unknown pid 1082 (exit status 0)
+2025-02-25 03:03:43,298 INFO reaped unknown pid 1137 (exit status 0)
+2025-02-25 03:16:28,260 INFO reaped unknown pid 1189 (exit status 0)
+2025-02-25 03:19:07,013 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 03:19:08,017 INFO spawned: 'laravel-worker_00' with pid 1241
+2025-02-25 03:19:09,020 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 03:19:13,027 INFO reaped unknown pid 1232 (exit status 0)
+2025-02-25 03:20:54,162 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 03:20:55,166 INFO spawned: 'laravel-worker_00' with pid 1257
+2025-02-25 03:20:56,169 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 03:27:29,509 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 03:27:30,515 INFO spawned: 'laravel-worker_00' with pid 1263
+2025-02-25 03:27:31,519 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 03:27:37,531 INFO reaped unknown pid 1289 (exit status 0)
+2025-02-25 03:30:10,869 INFO reaped unknown pid 1330 (exit status 0)
+2025-02-25 03:31:47,988 INFO reaped unknown pid 1371 (exit status 0)
+2025-02-25 03:37:29,433 INFO reaped unknown pid 1412 (exit status 0)
+2025-02-25 03:38:48,223 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 03:38:49,228 INFO spawned: 'laravel-worker_00' with pid 1430
+2025-02-25 03:38:50,232 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 03:41:25,543 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 03:41:26,548 INFO spawned: 'laravel-worker_00' with pid 1436
+2025-02-25 03:41:27,551 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 03:41:35,565 INFO reaped unknown pid 1462 (exit status 0)
+2025-02-25 03:42:36,127 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 03:42:37,131 INFO spawned: 'laravel-worker_00' with pid 1512
+2025-02-25 03:42:38,134 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 03:42:42,145 INFO reaped unknown pid 1505 (exit status 0)
+2025-02-25 03:43:16,973 INFO reaped unknown pid 1550 (exit status 0)
+2025-02-25 04:42:58,354 WARN received SIGQUIT indicating exit request
+2025-02-25 04:42:58,355 INFO waiting for laravel-worker_00, php-fpm to die
+2025-02-25 04:42:58,362 INFO stopped: php-fpm (exit status 0)
+2025-02-25 04:42:59,367 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2025-02-25 13:19:14,386 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-25 13:19:14,387 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2025-02-25 13:19:14,401 INFO supervisord started with pid 1
+2025-02-25 13:19:15,408 INFO spawned: 'laravel-worker_00' with pid 7
+2025-02-25 13:19:15,414 INFO spawned: 'php-fpm' with pid 8
+2025-02-25 13:19:16,616 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 13:19:16,617 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 13:20:47,429 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 13:20:48,436 INFO spawned: 'laravel-worker_00' with pid 22
+2025-02-25 13:20:49,438 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 13:21:28,314 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 13:21:29,320 INFO spawned: 'laravel-worker_00' with pid 28
+2025-02-25 13:21:30,324 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 13:21:43,351 INFO reaped unknown pid 54 (exit status 0)
+2025-02-25 13:23:16,702 WARN received SIGQUIT indicating exit request
+2025-02-25 13:23:16,703 INFO waiting for laravel-worker_00, php-fpm to die
+2025-02-25 13:23:16,709 INFO stopped: php-fpm (exit status 0)
+2025-02-25 13:23:17,714 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2025-02-25 13:23:47,008 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-25 13:23:47,010 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2025-02-25 13:23:47,020 INFO supervisord started with pid 1
+2025-02-25 13:23:48,028 INFO spawned: 'laravel-worker_00' with pid 7
+2025-02-25 13:23:48,033 INFO spawned: 'php-fpm' with pid 8
+2025-02-25 13:23:49,089 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 13:23:49,090 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 15:55:10,460 INFO reaped unknown pid 40 (exit status 0)
+2025-02-25 19:36:26,093 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 19:36:27,113 INFO spawned: 'laravel-worker_00' with pid 52
+2025-02-25 19:36:28,117 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 19:42:32,053 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 19:42:33,061 INFO spawned: 'laravel-worker_00' with pid 58
+2025-02-25 19:42:34,064 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 19:47:58,341 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 19:47:59,347 INFO spawned: 'laravel-worker_00' with pid 68
+2025-02-25 19:48:00,351 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 19:58:01,764 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 19:58:02,769 INFO spawned: 'laravel-worker_00' with pid 80
+2025-02-25 19:58:03,774 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 20:01:12,972 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 20:01:13,979 INFO spawned: 'laravel-worker_00' with pid 86
+2025-02-25 20:01:14,982 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 20:01:17,775 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 20:01:18,781 INFO spawned: 'laravel-worker_00' with pid 92
+2025-02-25 20:01:19,784 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 20:01:22,590 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 20:01:23,596 INFO spawned: 'laravel-worker_00' with pid 98
+2025-02-25 20:01:24,600 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 20:09:01,194 INFO exited: laravel-worker_00 (exit status 0; expected)
+2025-02-25 20:09:02,201 INFO spawned: 'laravel-worker_00' with pid 108
+2025-02-25 20:09:03,205 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 20:39:53,413 WARN received SIGQUIT indicating exit request
+2025-02-25 20:39:53,415 INFO waiting for laravel-worker_00, php-fpm to die
+2025-02-25 20:39:53,431 INFO stopped: php-fpm (exit status 0)
+2025-02-25 20:39:54,437 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2025-02-25 20:41:14,679 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-25 20:41:14,680 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2025-02-25 20:41:14,685 INFO supervisord started with pid 1
+2025-02-25 20:41:15,689 INFO spawned: 'laravel-worker_00' with pid 7
+2025-02-25 20:41:15,692 INFO spawned: 'php-fpm' with pid 8
+2025-02-25 20:41:16,733 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 20:41:16,734 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-25 22:10:21,710 WARN received SIGQUIT indicating exit request
+2025-02-25 22:10:21,711 INFO waiting for laravel-worker_00, php-fpm to die
+2025-02-25 22:10:21,715 INFO stopped: php-fpm (exit status 0)
+2025-02-25 22:10:22,719 WARN stopped: laravel-worker_00 (terminated by SIGTERM)

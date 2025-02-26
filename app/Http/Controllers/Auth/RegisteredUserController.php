@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Inertia\Inertia;
 use Inertia\Response;
+use App\Jobs\SendMailJob;
 
 class RegisteredUserController extends Controller
 {
@@ -30,6 +31,7 @@ class RegisteredUserController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
+        
         $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|string|lowercase|email|max:255|unique:'.User::class,
@@ -45,6 +47,20 @@ class RegisteredUserController extends Controller
         event(new Registered($user));
 
         Auth::login($user);
+
+        SendMailJob::dispatch([
+            'email_from' => 'do_not_reply@appsolution4u.com',
+            'name_from' => 'AppSolution Assistant',
+            'email_recipient' => $request->email,
+            'name_recipient' => $request->name,
+            'subject' => 'Welcome to AppSolution4u',
+            'template_id' => 6757865,
+            'variables' => [
+                "name_recipient" => $request->name,
+            ]
+        ]);
+
+        // dd  ('Email sent');
 
         return redirect(route('dashboard', absolute: false));
     }
