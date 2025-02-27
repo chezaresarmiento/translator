@@ -49,6 +49,7 @@ const form = useForm({
                     required
                     autofocus
                     autocomplete="name"
+                    
                 />
 
                 <InputError class="mt-2" :message="form.errors.name" />

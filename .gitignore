@@ -21,3 +21,7 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+/docker/mysql/var/
+**/storage
+**/supervisord.log
+**/supervisord.pid
